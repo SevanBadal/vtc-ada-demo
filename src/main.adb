@@ -11,6 +11,6 @@ begin
    Simple_Math_Utilities.Absolute(X);
 
    for I in 0 .. 22 loop
-      Time_Utilities.Increment_Hour(Time);
+      Time_Utilities.Increment_Hour(Time); -- what happens if this loop where to iterate one more time?
    end loop;
 end Main;
